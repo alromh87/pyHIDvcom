@@ -1,0 +1,6 @@
+*.cpp
+build
+dist
+huella.*
+*.pyc
+*.egg-info
