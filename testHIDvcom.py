@@ -31,11 +31,10 @@ if rc != 0:
   print 'Error al solicitar huella:', rc
   sys.exit()
 
-
 img = Image.frombuffer('L', [width, height], composite, "raw", 'L', 0, 1)
 img.show()
 
-result =  nfiq.comp_nfiq(composite,  width,  height, 8, 8)
+result =  nfiq.comp_nfiq(composite,  width,  height, 8, 500)
 print 'Huella obtenida-> \n\tSpoof:', spoof, '\n\tCalidad:', result[1]
 
 with open("huella.raw", 'wb') as raw_file:
