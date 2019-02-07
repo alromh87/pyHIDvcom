@@ -16,4 +16,4 @@ sudo make install
 ```
 
 #### Extras
-You can get fingerprint quality score from NIST's NFIQ by installing NBIS for python from [https://github.com/alromh87/NBIS-python]
+You can get fingerprint quality score from NIST's NFIQ by installing NBIS for python from https://github.com/alromh87/NBIS-python
