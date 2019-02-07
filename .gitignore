@@ -5,3 +5,4 @@ huella.*
 *.pyc
 *.egg-info
 HIDvcom.py
+installedFiles.txt
