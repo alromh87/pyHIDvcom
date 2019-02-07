@@ -3,7 +3,7 @@ Quick & Dirty basic wrapper to use HID_Bio_SDK_6.01.26 from python.
 #### Just basic functions implemented:
 
 - [x] Start device
-- [ ] Get config (TODO: translate to python dictionary)
+- [x] Get config (TODO: return full)
 - [x] Capture composite image
 - [x] Capture template image
 
@@ -14,3 +14,6 @@ Clone inside HID_Bio_SDK_6.01.26 -> Linux_6.01.26 -> VCOM-Integration-Kit_v6.01.
 make
 sudo make install
 ```
+
+#### Extras
+You can get fingerprint quality score from NIST's NFIQ by installing NBIS for python from [https://github.com/alromh87/NBIS-python]
